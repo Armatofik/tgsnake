@@ -1,6 +1,6 @@
 {
   "name": "@armatofik/tgsnake",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Telegram MTProto framework for nodejs. Layer 222. Based on tgsnake 3.3.3-hotfix.2.",
   "main": "./lib/src/index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "userbot"
   ],
   "bugs": "https://github.com/tgsnake/tgsnake/issues",
-  "repository": "https://github.com/tgsnake/tgsnake",
+  "repository": "https://github.com/armatofik/tgsnake",
   "author": "butthx",
   "license": "MIT",
   "files": [
@@ -25,9 +25,9 @@
   ],
   "dependencies": {
     "@armatofik/tgsnake-core": "1.0.0",
+    "@armatofik/tgsnake-parser": "1.0.0",
     "@tgsnake/fileid": "2.1.0",
     "@tgsnake/log": "latest",
-    "@tgsnake/parser": "2.1.0",
     "mime-types": "2.1.35",
     "prompts": "2.4.2"
   },

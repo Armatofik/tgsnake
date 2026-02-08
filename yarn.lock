@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@armatofik/tgsnake-core@1.0.0":
+"@armatofik/tgsnake-core@^1.0.0", "@armatofik/tgsnake-core@1.0.0":
   version "1.0.0"
   resolved "https://registry.npmjs.org/@armatofik/tgsnake-core/-/tgsnake-core-1.0.0.tgz"
   integrity sha512-Bze1+wq2R6P5UdcLPnydH8e/f2tYSLQEsL55kdVZoZV/EFNQBQiDl/q+o0Vny7u1Aa2UTLvJ8zrv9aBCaLpAFA==
@@ -11,6 +11,14 @@
     async-mutex "0.5.0"
     big-integer "1.6.52"
     socks "2.8.4"
+
+"@armatofik/tgsnake-parser@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/@armatofik/tgsnake-parser/-/tgsnake-parser-1.0.0.tgz"
+  integrity sha512-vZQYFGPrXKYlawIKR3pNnupN+lTuwmnrtwPXxywQjHAo3tg8BE4VCKP036oWIi2c7t3JrB1yVmrAMmkIpeGDLA==
+  dependencies:
+    "@armatofik/tgsnake-core" "^1.0.0"
+    htmlparser2 "^9.1.0"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -44,13 +52,6 @@
   integrity sha512-NANzXE61BEUhDOIQrr0ITu1+SLrhyMtQtXMaqc+9pGzzVOMGH8qGGmVEEicfPTV12vr2cXJ26n8SmdUE6nKyww==
   dependencies:
     chalk "4.1.2"
-
-"@tgsnake/parser@2.1.0":
-  version "2.1.0"
-  resolved "https://registry.npmjs.org/@tgsnake/parser/-/parser-2.1.0.tgz"
-  integrity sha512-KarHn0ezqyW4XE+zsuqbu7KCV6dPX1t2z0qKLRCgXwa2x/ZLumuYdCWuZGF5PWwuRnyLTpW2uVQ7/5mgLV3ffw==
-  dependencies:
-    htmlparser2 "^9.1.0"
 
 "@ts-morph/common@~0.26.0":
   version "0.26.1"

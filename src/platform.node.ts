@@ -33,7 +33,7 @@ export {
   PHOTO_TYPES,
   DOCUMENT_TYPES,
 } from '@tgsnake/fileid';
-export { Parser, type Entities } from '@tgsnake/parser';
+export { Parser, type Entities } from '@armatofik/tgsnake-parser';
 export { Logger, TypeLogLevel } from '@tgsnake/log';
 export { lookup as mimetypes } from 'mime-types';
 export { Readable, Writable, Duplex } from 'stream';
