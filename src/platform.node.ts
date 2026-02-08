@@ -22,7 +22,7 @@ export {
   Files,
   Cryptos,
   Errors,
-} from '@tgsnake/core';
+} from '@armatofik/tgsnake-core';
 export {
   Writer,
   base64_url_encode,

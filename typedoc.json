@@ -2,7 +2,7 @@
   "entryPoints": ["src/index.ts"],
   "out": "beta",
   "media": ["./media"],
-  "name": "tgsnake",
+  "name": "@armatofik/tgsnake",
   "includeVersion": true,
   "hideGenerator": true,
   "externalPattern": ["./example/*(.js|.ts|.md)"],

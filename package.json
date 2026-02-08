@@ -1,7 +1,7 @@
 {
-  "name": "tgsnake",
-  "version": "3.3.3-hotfix.2",
-  "description": "Telegram MTProto framework for nodejs.",
+  "name": "@armatofik/tgsnake",
+  "version": "1.0.0",
+  "description": "Telegram MTProto framework for nodejs. Layer 222. Based on tgsnake 3.3.3-hotfix.2.",
   "main": "./lib/src/index.js",
   "scripts": {
     "build": "rm -rf ./lib && deno2node tsconfig.json",
@@ -24,7 +24,7 @@
     "lib/**/*"
   ],
   "dependencies": {
-    "@tgsnake/core": "1.13.14",
+    "@armatofik/tgsnake-core": "1.0.0",
     "@tgsnake/fileid": "2.1.0",
     "@tgsnake/log": "latest",
     "@tgsnake/parser": "2.1.0",
